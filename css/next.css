@@ -1,0 +1,19 @@
+p {font-size: 22px;}
+#p2 {margin: 10px 0;}
+
+body {
+    text-align: center;
+    background-color: #0A6847;
+    color: #FFC55A;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 30px 0;
+}
+
+i {
+    color: #FFC55A;
+    font-size: 50px;
+    margin-top: 150px;
+}
