@@ -1,16 +1,16 @@
 body {
     text-align: center;
-    background-color: #5DEBD7;
+    background-color: #FBF1F1;
 }
 
 h1 {
     margin-top: 180px;
-    color: #D20062;
-    font-size: 40px;
+    font-size: 50px;
+    color: #F78C30;
 }
 
 i {
-    color: #D20062;
+    color: #F78C30;
     font-size: 50px;
-    margin-top: 60px;
+    margin-top: 30px;
 }

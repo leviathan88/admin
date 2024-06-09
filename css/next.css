@@ -3,17 +3,17 @@ p {font-size: 22px;}
 
 body {
     text-align: center;
-    background-color: #0A6847;
-    color: #FFC55A;
+    background-color: #FBF1F1;
+    color: #F78C30;
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 60px;
     margin: 30px 0;
 }
 
 i {
-    color: #FFC55A;
+    color: #F78C30;
     font-size: 50px;
-    margin-top: 150px;
+    margin-top: 180px;
 }
