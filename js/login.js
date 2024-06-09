@@ -4,9 +4,8 @@ const input1 = document.getElementById('input-email')
 const input2 = document.getElementById('input-password')
 const checkbox = document.getElementById('checkbox')
 const button = document.querySelector('form button')
-
 button.addEventListener('click', event => {
     event.preventDefault()
     if (input1.value == email && input2.value == password) window.location.href = 'page.html'
-    else alert('error');
+    else alert("Account is not available");
 })

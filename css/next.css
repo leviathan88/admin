@@ -17,3 +17,16 @@ i {
     font-size: 50px;
     margin-top: 180px;
 }
+
+button {
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #F78C30;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s linear;
+    margin-top: 30px;
+    &:hover {background-color: #E0781F;}
+}
