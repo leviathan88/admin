@@ -7,5 +7,10 @@ const button = document.querySelector('form button')
 button.addEventListener('click', event => {
     event.preventDefault()
     if (input1.value == email && input2.value == password) window.location.href = 'page.html'
-    else alert("Account is not available");
+    else {
+        Swal.fire({
+            icon: "warning",
+            text: "Account is unavailable",
+          });
+    }
 })

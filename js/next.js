@@ -10,5 +10,6 @@ p2.innerHTML = `Your email address : ${email}`
 p3.innerHTML = `Your password : ${password}`
 button.addEventListener('click', () => {
     localStorage.clear()
+    alert('Account deleted')
     window.location.href = 'register.html'
 })

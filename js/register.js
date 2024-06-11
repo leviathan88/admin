@@ -10,5 +10,10 @@ button.addEventListener('click', event => {
         localStorage.setItem('email', input2.value);
         localStorage.setItem('password', input3.value);
         window.location.href = 'next.html'
-    } else alert('Error, check inputs');
+    } else {
+        Swal.fire({
+            icon: "warning",
+            text: "Error, check inputs",
+          });
+    }
 });
